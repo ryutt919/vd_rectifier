@@ -52,7 +52,7 @@ cv.initUndistortRectifyMap() 함수로 보정용 리맵 맵(map1, map2) 생성
 
 cv.remap()를 이용한 픽셀 단위 위치 재매핑으로 왜곡 보정
 
-OpenCV GUI (cv.imshow, cv.waitKey)를 통한 인터랙션 구현
+
 --- 
 ## calibration
 🎯 Camera Calibration using Chessboard Pattern
@@ -90,21 +90,6 @@ select_all: True이면 자동으로 모든 프레임 저장
 
 cv.calibrateCamera를 통해 보정 수행
 
-🖥️ 사용법
-bash
-복사
-편집
-python camera_calibration.py
-실행 후, 영상이 재생되며 키보드로 이미지를 선택:
-
-키	기능
-Space	현재 프레임에서 체스보드 검출 시도
-Enter	검출 성공 시 해당 프레임 저장
-ESC	선택 종료
-📊 출력 예시
-txt
-복사
-편집
 ## Camera Calibration Results
 * The number of selected images = 12
 * RMS error = 0.2145
